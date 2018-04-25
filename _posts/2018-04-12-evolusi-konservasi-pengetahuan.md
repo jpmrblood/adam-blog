@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Evolusi Konservasi Pengetahuan
-date:   2018-04-19 13:32:20 +0300
+date:   2018-04-19 00:00:00 +0700
 description: Sewaktu orang Yunani kuno keganjringan membuat tulisan, Socrates menolaknya. # Add post description (optional)
 img: 2018/04/socrates.png # Add image post (optional)
 tags: [komentar]

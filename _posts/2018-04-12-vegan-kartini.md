@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  Vegan Kartini
-date:   2018-04-19 13:32:20 +0300
+date:   2018-04-19 00:00:00 +0700
 description: Kartini diangkat oleh Soekarno menjadi pahlawan sekaligus hari lahirnya diperingati. # Add post description (optional)
 img: 2018/04/ra-kartini.jpg # Add image post (optional)
-tags: [komentar]
+tags: [kartini,wanita,emansipasi,perjuangan]
 author: Jan Peter Alexander Rajagukguk # Add name author (optional)
 ---
 Tulisan ini terinspirasi dari status Facebook saya yang saya tulis 2 tahun lampau:
