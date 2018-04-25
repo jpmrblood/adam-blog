@@ -56,6 +56,10 @@ Lalu dia mengulang kode:
 </pre></div>
 Saya lalu menulis ulang kode tersebut sebagai konfirmasi.
 
+<div class="speech-bubble-me"><pre>
+01234567
+</pre></div>
+
 Setelah saya kirim kode konfirmasi, dia lalu mengirimkan tulisan:
 <div class="speech-bubble-you"><pre>
 ✅ Telah terjadwal layanan paspor Anda:
