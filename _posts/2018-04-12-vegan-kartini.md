@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Evolusi Konservasi Pengetahuan
+title:  Vegan Kartini
 date:   2018-04-19 13:32:20 +0300
-description: Sewaktu orang Yunani kuno keganjringan membuat tulisan, Socrates menolaknya. # Add post description (optional)
+description: Kartini diangkat oleh Soekarno menjadi pahlawan sekaligus hari lahirnya diperingati. # Add post description (optional)
 img: 2018/04/ra-kartini.jpg # Add image post (optional)
 tags: [komentar]
 author: Jan Peter Alexander Rajagukguk # Add name author (optional)
@@ -10,8 +10,9 @@ author: Jan Peter Alexander Rajagukguk # Add name author (optional)
 Tulisan ini terinspirasi dari status Facebook saya yang saya tulis 2 tahun lampau:
 
 >As the world still struggling with Feminism, here in Indonesia we celebrate a Vegan Feminist as our hero. Kudos to our founding father who set Women's Day not the same as Mother Day. All power to us all.
-[#KartiniDay](https://www.facebook.com/hashtag/kartiniday?source=feed_text) <br /><br />
->Dikirim oleh [Jan Peter Alexander Rajagukguk](https://www.facebook.com/jpmrblood?hc_ref=ARTZ_yyKhOWG3B9UhGq346tKApsDY6Xx9kJfKwytfUkOAKi_xH1Opco9emu4MVX8TSI&fref=nf) pada&nbsp;[20 April 2016](https://www.facebook.com/jpmrblood/posts/10208627904672174)
+[#KartiniDay](https://www.facebook.com/hashtag/kartiniday?source=feed_text)
+>
+>&mdash; <cite>Dikirim oleh [Jan Peter Alexander Rajagukguk](https://www.facebook.com/jpmrblood?hc_ref=ARTZ_yyKhOWG3B9UhGq346tKApsDY6Xx9kJfKwytfUkOAKi_xH1Opco9emu4MVX8TSI&fref=nf) pada&nbsp;[20 April 2016](https://www.facebook.com/jpmrblood/posts/10208627904672174) </cite>
 
 Surat Kartini 27 Oktober 1902 kepada Ny.R.M. Abendanon-Mandri dan suaminya, berkata:
 
