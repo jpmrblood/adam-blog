@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-content;
   color: $dark-gray;
   margin: 0;
   background-color: $old-paper;
@@ -28,7 +28,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cormorant', serif;
+  font-family: $font-title;
   color: $dark-purple;
   font-weight: 400;
 }
@@ -48,38 +48,6 @@ blockquote {
   margin-left: 21px;
   font-style: italic;
   color: $dark-purple;
-}
-
-blockquote.EmbeddedTweet-tweet {
-  display: inline-block;
-  background-color: $old-paper;
-  padding: 16px;
-  margin: 10px 0;
-  max-width: 468px;
-  border: #ddd 1px solid;
-  border-top-color: #eee;
-  border-bottom-color: #bbb;
-  border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-  font: bold 14px/18px 'Cormorant', serif;
-  color: $dark-purple;
-}
-
-blockquote.EmbeddedTweet-tweet p {
-  font: normal 18px/24px 'Open Sans', serif;
-  margin: 0 5px 10px 0;
-}
-
-blockquote.EmbeddedTweet-tweet a[href^="https://twitter.com"] {
-  font-weight: normal;
-  color: #666;
-  font-size: 12px;
-}
-
-blockquote.EmbeddedTweet-tweet a[href^="https://twitter.com"] {
-  font-weight: normal;
-  color: #666;
-  font-size: 12px;
 }
 
 dl {
