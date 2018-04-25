@@ -22,18 +22,18 @@ Untuk bisa mengakses, saya harus menambahkan kontak baru di WA dengan nomor ters
 
 Lalu, saya memulai percakapan dengan format:
 
-```
+<div class="speech-bubble-me"><pre>
 #Nama Lengkap#Tanggal Lahir#Tanggal Daftar
-```
+</pre></div>
 
 Misalnya:
 
-```
+<div class="speech-bubble-me"><pre>
 #John Doe#01011970#14032018
-```
+</pre></div>
 Setelah itu, saya mendapatkan balasan:
-
-```
+<div class="speech-bubble-you">
+<pre>
 ✅ Konfirmasi Penjadwalan Layanan Paspor Anda:
 🔹 Nomor WA:628120000001
 🔹 Nama:JOHN DOE
@@ -46,16 +46,18 @@ Abaikan pesan ini apabila ingin membatalkan penjadwalan Anda.
 Terima kasih
 
 ℹ Layanan Antrian via WhatsApp (LAW) Kantor Imigrasi Kelas I Jakarta Pusat
-```
+</pre>
+</div>
+
 Lalu dia mengulang kode:
 
-```
+<div class="speech-bubble-you"><pre>
 01234567
-```
+</pre></div>
 Saya lalu menulis ulang kode tersebut sebagai konfirmasi.
 
 Setelah saya kirim kode konfirmasi, dia lalu mengirimkan tulisan:
-```
+<div class="speech-bubble-you"><pre>
 ✅ Telah terjadwal layanan paspor Anda:
 🔸 No. WA: 628120000001
 🔸 Nama: JOHN DOE
@@ -81,14 +83,15 @@ Setelah saya kirim kode konfirmasi, dia lalu mengirimkan tulisan:
 
 Terima kasih
 ℹ Layanan Antrian via WhatsApp (LAW) Kantor Imigrasi Kelas I Jakarta Pusat 🇮🇩
-```
+</pre></div>
+
 Wow! Cepat sekali. Oh, iya, saya melakukan “kecurangan.” Saya tahu tanggal yang kosong dari teman saya yang terlebih dahulu memasukkan berulang-ulang tanggal sampai ketemu tanggal yang kosong. Makanya, saya tahu tanggal berapa yang kosong. Kalau tidak, saya harus menebak dahulu hari apa yang kosong dan kemungkinan penuh. Ha… ha… ha….
 
 Oh, iya, nanti tanggal 10 Maret 2018 saya harus kirim kode:
 
-```
+<div class="speech-bubble-me"><pre>
 #hadir
-```
+</pre></div>
 
 sebagai bentuk konfirmasi. Itu bisa minta teman dekat atau saudara untuk mengingatkan. Atau, tambahkan ke pengingat di telepon genggam supaya tidak lupa.
 

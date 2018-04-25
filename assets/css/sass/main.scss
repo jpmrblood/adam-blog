@@ -93,6 +93,56 @@ dt {
   color: $dark-purple;
 }
 
+.speech-bubble-you {
+	position: relative;
+	background: $fine-paper;
+	border-radius: .4em;
+  box-shadow: 0 .1em .3em rgba(0,0,0,0.16), 0 .1em .2em rgba(0,0,0,0.23);
+}
+
+.speech-bubble-you:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 0.625em solid transparent;
+	border-right-color: $fine-paper;
+	border-left: 0;
+	margin-top: -0.625em;
+	margin-left: -0.625em;
+}
+.speech-bubble-you pre {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+.speech-bubble-me {
+	position: relative;
+	background: $fine-paper;
+	border-radius: .4em;
+  box-shadow: 0 .1em .3em rgba(0,0,0,0.16), 0 .1em .2em rgba(0,0,0,0.23);
+}
+
+.speech-bubble-me:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 0.625em solid transparent;
+	border-left-color: $fine-paper;
+	border-right: 0;
+	margin-top: -0.625em;
+	margin-right: -0.625em;
+}
+
+.speech-bubble-me pre {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+
 pre {
   padding: 16px 32px;
   overflow-x: auto;
