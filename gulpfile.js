@@ -66,3 +66,6 @@ gulp.task('watch', function () {
 
 //  Default task
 gulp.task('default', ['browser-sync', 'watch']);
+
+//  Build task
+gulp.task('build', ['sass', 'img', 'jekyll-build']);
