@@ -24,7 +24,7 @@ Tentang opini mendiskreditkan Kartini itu, saya tidak mau banyak berpendapat. Op
 
 Tetapi, hal yang paling serius adalah [tulisan renungan Hari Kartini](https://kamiperempoean.wordpress.com/2018/04/23/renungan-di-hari-kartini/) oleh Kami Perempoean. Blog ini menggambarkan kejujuran wanita Indonesia modern tahun 2018:
 
-> Mereka tidak ~~kenal~~ siapa gagasan Kartini!
+> Mereka tidak kenal ~~siapa~~ gagasan Kartini!
 
 Menurut saya, seharusnya buku “Sehabis Gelap Terbitlah Terang” menjadi bacaan wajib bagi para feminis Indonesia, atau orang-orang yang terinspirasi emansipasi. Tetapi, kenyataan memang pahit. Buku terjemahan tulisan Armijn Pane ini kalah pamor dibandingkan dengan karya kekinian lainnya. Padahal, Daniel Hutagalung sampai menyebut [R.A. Kartini sebagai peretas zaman baru](https://dhutag.wordpress.com/2015/04/22/kartini-sang-peretas-zaman-baru/) karena ide-ide radikal melampaui zamannya.
 
