@@ -11,7 +11,7 @@ var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 
 // Build the Jekyll Site
 gulp.task('jekyll-build', function (done) {
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+    return cp.spawn( 'bundle' , ['exec', 'jekyll', 'build', '--config', '_config_dev.yml'], {stdio: 'inherit'})
         .on('close', done);
 });
 
@@ -34,7 +34,7 @@ gulp.task('browser-sync', ['sass', 'img', 'jekyll-build'], function() {
 gulp.task('sass', function () {
     return gulp.src('assets/css/sass/main.scss')
         .pipe(sass({
-            outputStyle: 'expanded',
+            outputStyle: 'compressed',
             onError: browserSync.notify
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
