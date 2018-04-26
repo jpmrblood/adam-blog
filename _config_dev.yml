@@ -27,10 +27,10 @@ pinterest: # Add your Pinterest handle
 mailchimp: # Add your MailChimp form identifier.
 
 # Disqus
-discus_identifier: # Add your discus identifier
+discus_identifier: 'saya-bersih-bavak' # Add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: 'UA-30764858-1' # Google Analytics
 
 # Paginate
 paginate: 6
