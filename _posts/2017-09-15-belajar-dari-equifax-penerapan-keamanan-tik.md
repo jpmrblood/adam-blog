@@ -26,14 +26,15 @@ Semua ini sudah ada dalam standar-standar Kebijakan TIK. Ada ITIL, TOGAF 9.1, da
 
 Hal sederhana yang diatur oleh kerangka-kerangka tersebut misalnya kebijakan sandi *(Password Policy).* Kebijakan ini sudah lumrah menjadi bagian dari standar Kebijakan TIK. Semua sistem operasi, baik [Microsoft Windows](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh994572(v%3Dws.11)) maupun [GNU/Linux,](https://www.ostechnix.com/how-to-set-password-policies-in-linux/) sudah memiliki perkakas untuk menerapkan kebijakan pembuatan sandi.
 
-Bukan hanya itu, Badan standar Amerika (NIST) menganjurkan kebijakan cara membuat sandi yang benar dalam [NIST SP 800-63B-3.](https://pages.nist.gov/800-63-3/sp800-63b.html) SANS Institute bahkan menawarkan templat dokumen yang dapat digunakan untuk membuat sandi. Sedikit pencarian dapat ditemukan artikel yang memberikan petunjuk kepada pengguna ketika [membuat sandi.](http://www.sans.org/security-resources/policies/general/pdf/password-protection-policy) Pembuatan sandi yang aman itu sendiri masuk dalam ITIL Access Management.
+Bukan hanya itu, Badan standar Amerika (NIST) menganjurkan kebijakan cara membuat sandi yang benar dalam [NIST SP 800-63B-3.](https://pages.nist.gov/800-63-3/sp800-63b.html) SANS Institute bahkan menawarkan templat dokumen yang dapat digunakan untuk [membuat sandi.](http://www.sans.org/security-resources/policies/general/pdf/password-protection-policy) Sedikit pencarian dapat ditemukan [artikel yang memberikan petunjuk kepada pengguna ketika membuat sandi.](http://www.itmanagerdaily.com/password-policy-template/) Pembuatan sandi yang aman itu sendiri masuk dalam [ITIL Access Management.](http://www.bmc.com/guides/itil-access-management.html)
 
-Metrik Pengukuran Penerapan Keamanan Sistem Informasi
+# Metrik Pengukuran Penerapan Keamanan Sistem Informasi
+
 Bagi sebuah organisasi, tidaklah mudah untuk menerapkan kerangka kebijakan TIK seperti ITIL dan sejenisnya. Ada harga yang harus dibayarkan yang cenderung mahal. Jasa konsultasi dan proses penataan kembali SOP misalnya. Kesulitan organisasi pada umumnya gagal memberikan pembenaran untuk tingkat keamanan yang harus disediakannya. Tak terkecuali Equifax.
 
 Untuk itu, ada prinsip yang selalu saya pegang sejak lama:
 
-Keamanan berbanding terbalik dengan Kenyamanan
+> *Keamanan* berbanding terbalik dengan *Kenyamanan*
 
 Mengakses langsung tentunya jauh lebih cepat dari pada mengakses melalui HTTPS dan memasukkan sandi. Menaruh satpam dan CCTV di depan pintu gerbang menghabiskan banyak duit dibandingkan gerbang terbuka bagi siapa saja
 
