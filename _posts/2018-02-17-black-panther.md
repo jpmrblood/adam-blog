@@ -2,7 +2,7 @@
 layout: post
 title:  Black Panther
 date:   2018-02-28 00:00:00 +0700
-description: Kartini diangkat oleh Soekarno menjadi pahlawan sekaligus hari lahirnya diperingati. # Add post description (optional)
+description: Film Black Panther juga berusaha dengan baik menyediakan sarana untuk diskusi isu sosial global saat ini.
 img: 2018/04/black-panther.jpg # Add image post (optional)
 tags: [disney,marvel,black panther]
 author: Jan Peter Alexander Rajagukguk # Add name author (optional)
