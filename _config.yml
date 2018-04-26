@@ -34,7 +34,7 @@ analytics: 'UA-30764858-1' # Google Analytics
 
 # Paginate
 paginate: 6
-paginate_path: /page:num/
+paginate_path: /:num/
 
 # Build settings
 markdown: kramdown
@@ -45,4 +45,4 @@ plugins:
   - jekyll-sitemap
 
 include: [_pages]
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "sass"]
