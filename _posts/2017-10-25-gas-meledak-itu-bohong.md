@@ -2,7 +2,7 @@
 layout: post
 title:  Gas Meledak Itu Bohong
 date:   2017-11-07 00:00:00 +0700
-description: Kreativitas bukan kreatifitas.
+description: Isu gas yang bangkit kembali.
 img: 2018/04/tabung-gas.jpg # Add image post (optional)
 tags: [gas,hoaks]
 author: Jan Peter Alexander Rajagukguk # Add name author (optional)
