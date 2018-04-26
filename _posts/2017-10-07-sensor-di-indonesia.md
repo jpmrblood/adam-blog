@@ -2,9 +2,9 @@
 layout: post
 title:  Sensor di Indonesia
 date:   2017-10-10 00:00:00 +0700
-description: Tutupnya gerai-gerai fisik oleh karena disebabkan oleh berubahnya pola belanja masyarakat. 
+description: Peralatan sensor baru 
 img: 2018/04/trust-positif.png
-tags: [konsumsi,keuangan,perdagangan,ritel,ritel daring]
+tags: [sensor,kebebasan berpendapat, demokrasi, pemerintah,dns]
 author: Jan Peter Alexander Rajagukguk
 ---
 
