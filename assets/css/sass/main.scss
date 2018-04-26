@@ -38,6 +38,23 @@ img {
   max-width: 100%;
 }
 
+figure {
+  line-height: 1;
+  
+  img {
+    box-shadow: 0 .1em .3em rgba(0,0,0,0.16), 0 .1em .2em rgba(0,0,0,0.23);
+  }
+
+  figcaption {
+    padding-left: 18px;
+    border-left: 3px solid $dark-purple;
+    color: $dark-pink;
+    font-size: .85em;
+    font-style: italic;
+    margin-top: $spacing-unit / 3;
+  }
+}
+
 a {
   color: $dark-pink;
 }
