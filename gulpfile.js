@@ -9,9 +9,15 @@ var browserSync = require('browser-sync');
 
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 
-// Build the Jekyll Site
-gulp.task('jekyll-build', function (done) {
+// Build the Jekyll Site dev version
+gulp.task('jekyll-build-dev', function (done) {
     return cp.spawn( 'bundle' , ['exec', 'jekyll', 'build', '--config', '_config_dev.yml'], {stdio: 'inherit'})
+        .on('close', done);
+});
+
+// Build the Jekyll Site prod version
+gulp.task('jekyll-build', function (done) {
+    return cp.spawn( 'bundle' , ['exec', 'jekyll', 'build', '--config', '_config.yml'], {stdio: 'inherit'})
         .on('close', done);
 });
 
@@ -21,7 +27,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 });
 
 // Wait for jekyll-build, then launch the Server
-gulp.task('browser-sync', ['sass', 'img', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['sass', 'img', 'jekyll-build-dev'], function() {
     browserSync({
         server: {
             baseDir: '_site'
@@ -69,3 +75,6 @@ gulp.task('default', ['browser-sync', 'watch']);
 
 //  Build task
 gulp.task('build', ['sass', 'img', 'jekyll-build']);
+
+//  Build task
+gulp.task('build-dev', ['sass', 'img', 'jekyll-build-dev']);
