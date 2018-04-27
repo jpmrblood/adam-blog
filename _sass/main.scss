@@ -59,6 +59,25 @@ a {
   color: $dark-pink;
 }
 
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+  text-decoration: none !important;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+
 blockquote {
   border-left: 3px solid $dark-purple;
   padding-left: 18px;
