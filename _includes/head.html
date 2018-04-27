@@ -4,7 +4,6 @@
 	<meta name="description" content="{{ page.description }}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta property="og:image" content="">
 	<link rel="shortcut icon" href="{{ "/assets/img/favicon/favicon.ico " | prepend: site.baseurl }}" type="image/x-icon">
 	<link rel="apple-touch-icon" sizes="57x57" href="{{ "/assets/img/favicon/apple-icon-57x57.png " | prepend: site.baseurl }}">
 	<link rel="apple-touch-icon" sizes="60x60" href="{{ "/assets/img/favicon/apple-icon-60x60.png " | prepend: site.baseurl }}">
@@ -34,4 +33,65 @@
 	<link rel="stylesheet" href="{{ "/assets/fonts/font-awesome/css/font-awesome.min.css " | prepend: site.baseurl }}">
 	<!-- Styles -->
 	<link rel="stylesheet" href="{{ "/assets/css/main.css " | prepend: site.baseurl }}">
+
+	  <!-- other stuff in your site header like javascript or whatever above here -->
+
+	  <meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="{{ site.twitter }}">
+	  <meta name="twitter:creator" content="{{ site.twitter }}">
+	  
+	  <!-- hardcoding an image here so I don't have to worry about attaching an image to each blog post in the future  -->
+	  
+	  <meta property="og:image" content="{{ page.img | prepend: site.baseurl }}" />
+	  <meta name="twitter:image:src" content="{{ page.img | prepend: site.baseurl }}">
+	  <meta content="{{ site.title }}" property="og:site_name">
+	
+	  <!-- Set a page title, or default to site title if missing for some reason  -->
+	
+	  {% if page.title %}
+		<meta name="twitter:title" content="{{ page.title }}">
+		<meta content="{{ page.title }}" property="og:title">
+		<meta content="article" property="og:type">
+	  {% else %}
+		<meta name="twitter:title" content="{{ site.title }}">
+		<meta content="{{ site.title }}" property="og:title">
+		<meta content="website" property="og:type">
+	  {% endif %}
+	
+	  <!-- set page description or default to site description  -->
+	
+	  {% if page.description %}
+		<meta name="twitter:description" content="{{ page.description }}">
+		<meta content="{{ page.description }}" property="og:description">
+	  {% else %}
+		<meta name="twitter:description" content="{{ site.description }}">
+		<meta content="{{ site.description }}" property="og:description">
+	  {% endif %}
+	
+	  {% if page.url %}
+		<meta name="twitter:url" content="{{ page.url| prepend: site.url }}">
+		<meta content="{{ page.url | prepend: site.url }}" property="og:url">
+	  {% endif %}
+	
+	  {% if page.date %}
+		<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+	  {% endif %}
+	  {% if page.image %}
+		<meta content="{{ page.img | prepend: site.baseurl }}" property="og:image">
+		<meta property="og:image" content="{{ site.url }}/img/twitter_card2.png" />
+	  {% else %}
+		<meta content="{{ page.img | prepend: site.baseurl }}" property="og:image">
+	  {% endif %}
+	
+	  {% if page.categories %}
+		{% for category in page.categories limit:1 %}
+		<meta content="{{ category }}" property="article:section">
+		{% endfor %}
+	  {% endif %}
+		
+	  {% if page.tags %}
+		{% for tag in page.tags %}
+		<meta content="{{ tag }}" property="article:tag">
+		{% endfor %}
+	  {% endif %}
 </head>
