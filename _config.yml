@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Perkataan-perkataan yang terhilang dari jpmrblood.
 permalink: ':year/:month/:day/:title/'
 baseurl: "/minds" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jpmrblood.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author: Jan Peter Alexander Rajagukguk # add your name
