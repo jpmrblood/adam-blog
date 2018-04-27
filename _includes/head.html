@@ -4,6 +4,7 @@
 	<meta name="description" content="{{ page.description }}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}"
 	<link rel="shortcut icon" href="{{ "/assets/img/favicon/favicon.ico " | prepend: site.baseurl }}" type="image/x-icon">
 	<link rel="apple-touch-icon" sizes="57x57" href="{{ "/assets/img/favicon/apple-icon-57x57.png " | prepend: site.baseurl }}">
 	<link rel="apple-touch-icon" sizes="60x60" href="{{ "/assets/img/favicon/apple-icon-60x60.png " | prepend: site.baseurl }}">
@@ -36,8 +37,8 @@
 	  <!-- other stuff in your site header like javascript or whatever above here -->
 
 	  <meta name="twitter:card" content="summary_large_image">
-	  <meta name="twitter:site" content="@your_twitter_handle">
-	  <meta name="twitter:creator" content="@your_twitter_handle">
+	  <meta name="twitter:site" content="{{ site.twitter }}">
+	  <meta name="twitter:creator" content="{{ site.twitter }}">
 	  <meta content="{{ site.title }}" property="og:site_name">
 	
 	  <!-- Set a page title, or default to site title if missing for some reason  -->
