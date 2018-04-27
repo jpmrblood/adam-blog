@@ -14,7 +14,11 @@
           <li><a href="{{site.baseurl}}/feed.xml">Feed</a></li>
         </ul>
       </nav>
-      <p class="logo"><a href="{{ site.baseurl }}">{{ site.title }}</a></p>
+      {% if site.baseurl %}
+        <p class="logo"><a href="{{ site.baseurl }}">{{ site.title }}</a></p>
+      {% else %}
+        <p class="logo"><a href="/">{{ site.title }}</a></p>
+      {% endif %}
       <div class="search-icon-container">
         <span class="search-icon"><a><i class="fa fa-search" aria-hidden="true"></i></a></span>
       </div>
