@@ -3,8 +3,8 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Perkataan-perkataan yang terhilang dari jpmrblood.
 permalink: ':year/:month/:day/:title/'
-baseurl:  # the subpath of your site, e.g. /blog
-url: 'jpmrblood.netlify.com' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/' # the subpath of your site, e.g. /blog
+url: 'https://jpmrblood.netlify.com' # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author: Jan Peter Alexander Rajagukguk # add your name
@@ -24,7 +24,7 @@ googleplus: JanPeterAlexanderRajagukguk # Add your Google Plus handle
 pinterest: # Add your Pinterest handle
 
 # Newsletter
-mailchimp: # Add your MailChimp form identifier.
+#mailchimp: # Add your MailChimp form identifier.
 
 # Disqus
 discus_identifier: 'saya-bersih-bavak' # Add your discus identifier
