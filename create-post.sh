@@ -6,7 +6,7 @@ if [ "$#" -ne 1 ] ; then
 fi
 
 
-title=`echo "$1" |sed 's/ /-/g'`
+title=`echo "$1" |sed 's/ /-/g'|tr '[:upper:]' '[:lower:]'`
 fileName="_posts/`date +%Y-%m-%d-$title.md`"
 
 touch $fileName
@@ -15,7 +15,7 @@ cat > $fileName <<EOF
 ---
 layout: post
 title: "$1"
-date:  `date "+%Y-%m-%d %H:%M:%S"`
+date:  `date "+%Y-%m-%d %H:%M:%S %z"`
 description: World
 img: 2018/04/books.jpg # Add image post (optional)
 tags: [komentar]
