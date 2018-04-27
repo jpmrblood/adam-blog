@@ -3,7 +3,11 @@
   <div class="recent-list">
     {% for post in site.posts offset:0 limit:4 %}
       {% if post.title %}
-        <a href="{{ site.baseurl }}{{ post.url }}" class="recent-item" style="background: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}}) center no-repeat; background-size: cover;"><span>{{ post.title }}</span></a>
+        {% if site.baseurl == '/' %}
+          <a href="{{ post.url }}" class="recent-item" style="background: url({{"/assets/img/" | append : post.img}}) center no-repeat; background-size: cover;"><span>{{ post.title }}</span></a>
+        {% else %}
+          <a href="{{ site.baseurl }}{{ post.url }}" class="recent-item" style="background: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}}) center no-repeat; background-size: cover;"><span>{{ post.title }}</span></a>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </div>
