@@ -1,9 +1,9 @@
 ---
 layout: post
 title: This Is America
-date:  2018-04-27 06:19:52 +0700
+date:  2018-05-07 06:19:52 +0700
 description: Ulasan tentang *This is America*
-img: 2018/04/this-is-america.jpg # Add image post (optional)
+img: 2018/05/this-is-america.jpg # Add image post (optional)
 tags: [donald glover, childish gambino]
 author: Jan Peter Alexander Rajagukguk # Add name author (optional)
 ---
