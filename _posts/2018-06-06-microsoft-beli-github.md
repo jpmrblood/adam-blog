@@ -8,5 +8,5 @@ tags: [komentar]
 author: Jan Peter Alexander Rajagukguk
 ---
 
-Hello.
+[Microsoft](https://blogs.microsoft.com/blog/2018/06/04/microsoft-github-empowering-developers/) membeli [Github](https://blog.github.com/2018-06-04-github-microsoft/) seharga seharga seratus empat triliun rupiah ().
 
