@@ -4,7 +4,7 @@ title: Avengers Infinity War
 date:  2018-04-27 06:19:52 +0700
 description: Ulasan tentang Avengers Infinity War
 img: 2018/04/avengers-infinity-war.jpg # Add image post (optional)
-tags: [disney,marvel,avengers,infinity war]
+tags: [disney,marvel,avengers,infinity war,film]
 author: Jan Peter Alexander Rajagukguk # Add name author (optional)
 ---
 

@@ -4,7 +4,7 @@ title: "Etnisitas dalam Kelokalan"
 date:  2018-09-22 13:44:44 +0700
 description: World
 img: 2018/09/cra.png # Add image post (optional)
-tags: [komentar]
+tags: [komentar,film]
 author: Jan Peter Alexander Rajagukguk # Add name author (optional)
 ---
 

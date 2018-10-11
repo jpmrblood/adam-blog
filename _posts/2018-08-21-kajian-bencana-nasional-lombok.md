@@ -8,4 +8,4 @@ tags: [komentar]
 author: Jan Peter Alexander Rajagukguk # Add name author (optional)
 ---
 
-(Mengapa gempa di Lombok tidak ditetapkan sebagai bencana nasional?)[http://theconversation.com/mengapa-gempa-di-lombok-tidak-ditetapkan-sebagai-bencana-nasional-101518]
+[Mengapa gempa di Lombok tidak ditetapkan sebagai bencana nasional?](http://theconversation.com/mengapa-gempa-di-lombok-tidak-ditetapkan-sebagai-bencana-nasional-101518)
