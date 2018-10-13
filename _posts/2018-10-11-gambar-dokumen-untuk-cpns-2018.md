@@ -19,12 +19,12 @@ Dengan memasang aplikasi Office Lens pada [PC](https://www.microsoft.com/id-id/p
 Caranya mudah:
 - Taruh dokumen pada permukaan yang rata. Foto dengan telepon genggam. Hati-hati dengan sumber cahaya agar bayangan tangan tidak terlihat.
 
-![Foto](/assets/img/2018/10/office-lens.jpg)
+![Contoh pengenalan dokumen Office Lens](/assets/img/2018/10/office-lense.jpg)
 
 - Buka Office Lens dan buka foto yang baru kita ambil tersebut.
 - Office Lens akan berusaha mengenali ujung-ujungnya. Anda bisa klik tombol pemotongan untuk menggerakkan ujung-ujung bila tidak pas.
 
-![Hasil](/assets/img/2018/10/dokumen-terpindai.jpg)
+![Hasil pengenalan](/assets/img/2018/10/dokumen-terpindai.jpg)
 
 Hasilnya lumayan.
 
