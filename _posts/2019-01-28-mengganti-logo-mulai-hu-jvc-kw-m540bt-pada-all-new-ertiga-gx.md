@@ -24,14 +24,22 @@ Saya menggunakan latar berwarna hitam karena kalau warna putih membuat silau pad
             url="https://suzuki.co.id/" %}
 
 
-Pada GIMP, pilih menu Image &#8594; Scale Image ...
+Pada GIMP, pilih menu *Image* &#8594; *Scale Image...*
 
 {% include image.html
             img="/assets/img/2019/01/resize-image.png"
             title="Mengganti rasio dari 914x480 menjadi 800x480."
-            caption="Mengganti rasio dari 914x480 menjadi 800x480."
-            url="https://suzuki.co.id/" %}
+            caption="Mengganti rasio dari 914x480 menjadi 800x480." %}
 
 Jangan lupa tekan tanda rantai jadi lepas supaya rasio lebar tidak menyesuaikan tinggi. Setelah itu, ubah lebar menjadi 800 piksel. Gambar akan menjadi seperti mejret. Tapi, nanti akan ditampilkan bagus.
 
+Setelah itu, simpan gambar: *File* &#8594; *Export As...*. 
 
+{% include image.html
+            img="/assets/img/2019/01/01-save-as.png"
+            title="Export As..."
+            caption="Export As..." %}
+
+Saya beri nama gambar saya namanya image1.bmp. Lalu tekan tombol *Export*.
+
+Selanjutnya akan ada pilihan. Tekan tombol + pada *Advanced Options* dan pilih *R5 G6 B5* sebagai format gambar BMP. Lalu, tekan tombol *Export*.
