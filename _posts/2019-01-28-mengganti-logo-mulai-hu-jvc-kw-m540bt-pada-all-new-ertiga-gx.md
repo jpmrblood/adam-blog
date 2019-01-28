@@ -49,3 +49,48 @@ Saya beri nama gambar saya namanya image1.bmp. Lalu tekan tombol *Export*.
 
 Selanjutnya akan ada pilihan. Tekan tombol + pada *Advanced Options* dan pilih *R5 G6 B5* sebagai format gambar BMP. Lalu, tekan tombol *Export*.
 
+# Buat Berkas Teks
+
+Selanjutnya, buatlah teks berkas biasa bernama `OpeningCustomize.txt` yang berisi:
+
+```
+Opening Customize
+[FILE]image1.bmp
+[VERSION]9876
+~END
+
+```
+
+Untuk mengembalikan ke logo semula, nomor versi bisa diganti menjadi 0000.
+
+# Memasang ke head unit.
+
+{% include image.html
+            img="/assets/img/2019/01/isi-drive.png"
+            title="Taruh semua berkas ke penyimpan USB."
+            caption="Taruh semua berkas ke penyimpan USB." %}
+
+Siapkan sebuah penyimpan USB yang diformat FAT32. Taruh `image1.bmp` dan `OpeningCustomize.txt` ke dalam situ.
+
+Colokkan USB ke head unit.
+
+Pada head unit, masuk ke menu *A/V Off*
+
+Di tampilan *A/V Off*, tekan:
+
+- Dua kali ujung kiri atas
+- Dua kali ujung kiri bawah
+- Sekali ujung kiri atas
+- Sekali ujung kiri bawah
+
+Perhatikan: ujung kiri bawah itu ada di atas tombol menu (kotak-kota kecil 3x3), bukan di ujung layar.
+
+Kalau benar, akan muncul tampilan Customize Menu.
+
+Tekan tombol *Opening Customize*.
+
+Sampai sini proses selesai. HU bisa dinyalakan ulang untuk menguji hasil kerja.
+
+Selamat mencoba.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zzMevvZEKjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
