@@ -42,4 +42,10 @@ Setelah itu, simpan gambar: *File* &#8594; *Export As...*.
 
 Saya beri nama gambar saya namanya image1.bmp. Lalu tekan tombol *Export*.
 
+{% include image.html
+            img="/assets/img/2019/01/02-save-as.png"
+            title="Advanced Options"
+            caption="Advanced Options" %}
+
 Selanjutnya akan ada pilihan. Tekan tombol + pada *Advanced Options* dan pilih *R5 G6 B5* sebagai format gambar BMP. Lalu, tekan tombol *Export*.
+
