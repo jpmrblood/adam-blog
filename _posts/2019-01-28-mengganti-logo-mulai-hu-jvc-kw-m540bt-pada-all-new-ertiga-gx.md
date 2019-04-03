@@ -4,7 +4,7 @@ title: "Mengganti Logo Mulai HU JVC KW-M540BT Pada All New Ertiga GX"
 date:  2019-01-28 11:53:03 +0700
 description: World
 img: 2018/04/books.jpg # Add image post (optional)
-tags: [ertiga][headunit][jvc]
+tags: [ertiga,headunit,jvc]
 author: Jan Peter Alexander Rajagukguk # Add name author (optional)
 ---
 
